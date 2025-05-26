@@ -1,0 +1,6 @@
+# Nmap 7.97 scan initiated Sat May 24 12:40:30 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sn -oJ - 127.0.0.1
+Failed to resolve "-".
+Bare '-': did you put a space between '--'?
+Nmap scan report for localhost (127.0.0.1)
+Host is up.
+# Nmap done at Sat May 24 12:40:38 2025 -- 1 IP address (1 host up) scanned in 7.54 seconds
