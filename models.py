@@ -13,6 +13,8 @@ class ScanScriptRequest(BaseModel):
 class ScanTypeRequest(BaseModel):
     ip: str
     scan_types: List[str]
+    port_range: Optional[str] = None  # Örnek: "1-1000" veya "80,443,8080"
+    timing: Optional[str] = "T3"  # T0-T5 arası, varsayılan T3
 
 class PortRangeRequest(BaseModel):
     ip: str
